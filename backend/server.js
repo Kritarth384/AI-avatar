@@ -30,7 +30,9 @@ app.get("/api/signed-url", async (req, res) => {
     } else if (opponent === 'taylor') {
       agentId = process.env.TAYLOR_AGENT_ID;
     } else if (opponent === 'daniel') {
-      agentId = process.env.DANIEL_AGENT_ID || process.env.TAYLOR_AGENT_ID;
+      agentId = process.env.DANIEL_AGENT_ID;
+    } else if (opponent === 'AB') {
+      agentId = process.env.AB_AGENT_ID;
     } else if (opponent === 'singapore_uncle') {
       agentId = process.env.SINGAPORE_UNCLE_AGENT_ID;
     }
