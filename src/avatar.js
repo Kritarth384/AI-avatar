@@ -100,7 +100,7 @@ function createCelebrityAvatar(opponent) {
         'nelson': 'nelson.mp4',
         'michelle': 'barbarella.mp4',
         'taylor': 'taylor.mp4',
-        'daniel': 'daniel_II.mp4',
+        'daniel': 'daniel_real.mp4',
         'AB': 'AB.mp4',
         // 'singapore_uncle': 'singapore_uncle.mp4'
     };
@@ -110,7 +110,7 @@ function createCelebrityAvatar(opponent) {
         'michelle': 'michelle.jpg',
         'nelson': 'nelson.jpg', 
         'taylor': 'taylor.jpg',
-        'daniel': 'daniel_II.jpg',
+        'daniel': 'daniel_real.jpg',
         'AB': 'AB.jpg',
         'singapore_uncle': 'singapore_uncle.jpg'
     };
